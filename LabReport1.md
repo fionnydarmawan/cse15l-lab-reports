@@ -1,5 +1,5 @@
 # **Lab Report 1 - Remote Access Tutorial**
-## Welcome to CSE 15L! This page will guide you to log into a course-specific account on `ieng6`! 
+## Welcome to CSE 15L! This page will guide you to log into your course-specific account on `ieng6`! 
 
 ## Step 1: Installing Visual Studio Code
 To download and install VS Code, simnply visit their website [here!](https://code.visualstudio.com/),
