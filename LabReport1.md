@@ -62,7 +62,7 @@ bash: cd~: command not found...
 ![Image](las-a.png)
 
 `ls <directory>`
-![Image](ls <directory>.png)
+![Image](lsDesktop.png)
 
 (This command lists all the files in the specified directory (in this case Desktop). However my terminal in this case does not have access to my Desktop. This explains the screenshot above in which the ouput says "no such file or directory".)
 
