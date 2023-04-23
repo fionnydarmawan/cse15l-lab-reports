@@ -62,12 +62,12 @@ bash: cd~: command not found...
 ![Image](las-a.png)
 
 `ls <directory>`
-<img src="ls <directory>.png" width="300" height="200">
+<img src="ls <directory>.png" width="500" height="200">
 (This command lists all the files in the specified directory (in this case Desktop). However my terminal in this case does not have access to my Desktop.)
 
 `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
-<img src="cp&cat.png" width="300" height="200">
+<img src="cp&cat.png" width="500" height="200">
 (cp command copy files or directories from one location to another, in this case it copies the hello.txt file. cat command displays the contents of the file, as shown in the screenshot).
 
 
