@@ -58,6 +58,6 @@ This fix addresses the wrong implementation in the for loop and return value aft
 
 ## Part 3
 
-** Some things I learned from Lab 2/3:**
+**Some things I learned from Lab 2/3:**
 
 From Week 2 Lab I learned that you can host your own web server from VS Code with certain built in functions in the Java progam. I was not aware of this before and I think it's fun that you can build/implement your own server and even share it with other folks. I also learned a lot more about GitHub functions such as forking and cloning, which I was also not aware of before lab. 
