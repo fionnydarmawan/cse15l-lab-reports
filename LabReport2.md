@@ -10,7 +10,7 @@ public void testReversed() {
   } 
 ```
 
-An input that doesn’t induce a failure, as a JUnit test:
+An input that doesn’t induce a failure as a JUnit test:
 
 ```
 public void testReversed() {
@@ -18,3 +18,7 @@ public void testReversed() {
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+
+The Symptom:
+
+<img src="Symptom.png" width="300" height="200">
