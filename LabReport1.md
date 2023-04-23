@@ -50,6 +50,7 @@ Here are some commands and their expected outputs that you can try:
 (This command changes the current working directory to the user's home directory)
 
 `cd~`
+
 bash: cd~: command not found...
 (This command produces "command not found" becuase I did not put a space before ~ when I should have. This command also changes the current working directory to the user's home directory)
 
@@ -59,9 +60,11 @@ bash: cd~: command not found...
 (This command lists the files and directories in the current working directory)
 
 `ls -a`
+
 ![Image](las-a.png)
 
 `ls <directory>`
+
 ![Image](lsDesktop.png)
 
 (This command lists all the files in the specified directory (in this case Desktop). However my terminal in this case does not have access to my Desktop. This explains the screenshot above in which the ouput says "no such file or directory".)
