@@ -46,7 +46,11 @@ We are still not sure why I am getting this error message, but if you happen to 
 ## Step 3: Run Some Commands!
 This final step is for you try out so commands on the terminal! 
 Here are some commands and their expected outputs that you can try: 
+
+
 `cd`
+
+
 (This command changes the current working directory to the user's home directory)
 
 `cd~`
