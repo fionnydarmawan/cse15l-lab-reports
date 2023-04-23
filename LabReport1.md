@@ -51,7 +51,9 @@ Here are some commands and their expected outputs that you can try:
 
 `cd~`
 
-bash: cd~: command not found...
+`bash: cd~: command not found...`
+
+
 (This command produces "command not found" becuase I did not put a space before ~ when I should have. This command also changes the current working directory to the user's home directory)
 
 `ls -lat`
