@@ -22,3 +22,29 @@ public void testReversed() {
 The Symptom:
 
 <img src="Symptom.png" width="500" height="300">
+
+Code before it is fixed (buggy code):
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+Changed code to fix: 
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i++) {
+      newArray[arr.length - 1 - i] = arr[i];
+    }
+    return newArray;
+  }
+```
+
+
+
