@@ -21,4 +21,4 @@ public void testReversed() {
 
 The Symptom:
 
-<img src="Symptom.png" width="300" height="200">
+<img src="Symptom.png" width="500" height="300">
