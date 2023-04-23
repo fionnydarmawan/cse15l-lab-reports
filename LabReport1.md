@@ -57,11 +57,16 @@ bash: cd~: command not found...
 `ls -lat`
 
 <img src="ls-lat.png" width="300" height="200">
-(This command lists the files and directories in the current working directory)
+
+(This command lists the files and directories in the current working directory. This command also sorts modification time with the most recently modified files listed first, as shown in the screenshot.)
 
 `ls -a`
 
+
 ![Image](las-a.png)
+
+
+(This command lists the hidden files in the working directory. The file always starts with a dot ".", as shown in the screenshot above.)
 
 `ls <directory>`
 
