@@ -2,11 +2,11 @@
 
 Here is the implementation/code for the webserver that keeps track of a single string that gets added to by incoming requests:
 
-<img src="URL Code.png" width="500" height="300">
+<img src="URL Code.png" width="600" height="500">
 
 **Screenshot #1:**
 
-<img src="Hello.png" width="600" height="500">
+<img src="Hello.png" width="500" height="300">
 
 * Above the HandleRequest method is called, using the url parameter. 
 * The request matches the condition of the method in which the url contains the string "/add-message". 
