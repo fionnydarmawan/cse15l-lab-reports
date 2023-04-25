@@ -22,7 +22,7 @@ Here is the implementation/code for the webserver that keeps track of a single s
 * Here we see the previous String listed on the page because we have saved the first request in the runningString that concatenates to the next line. 
 * So when the second request is called, instead overriding/replacing the first String, the method updates the page with a list of the previous String and the current running String. 
 
-**The values of the requests will only be read as String values and will be listed as is in the web page becuase the return type of the method is a String. If we want the return values to be another primitive return type, we would probably need to cast it to the desired return type (i.e. (Integer))**
+**The values of the requests will only be read as String values and will be listed as is in the web page becuase the return type of the method is a String. If we want the return values to be another primitive type, we would probably need to cast it to the desired return type (i.e. (Integer))**
 
 
 
