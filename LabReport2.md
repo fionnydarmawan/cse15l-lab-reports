@@ -1,3 +1,18 @@
+## Part 1 
+
+Here is the implementation/code for the webserver that keeps track of a single string that gets added to by incoming requests:
+
+<img src="URL Code.png" width="500" height="300">
+
+**Screenshot #1:**
+
+<img src="Hello.png" width="500" height="300">
+
+**Screenshot #2**
+
+<img src="HowAreYou.png" width="500" height="300">
+
+
 ## Part 2
 For this part, I chose the reversed method as the method that contains a bug in the code. 
 
