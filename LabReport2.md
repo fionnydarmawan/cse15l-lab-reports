@@ -6,7 +6,7 @@ Here is the implementation/code for the webserver that keeps track of a single s
 
 **Screenshot #1:**
 
-<img src="Hello.png" width="600" height="300">
+<img src="Hello.png" width="600" height="500">
 
 * Above the HandleRequest method is called, using the url parameter. 
 * The request matches the condition of the method in which the url contains the string "/add-message". 
