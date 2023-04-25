@@ -1,3 +1,5 @@
+## Lab Report 2 - Servers and Bugs
+
 ## Part 1 
 
 Here is the implementation/code for the webserver that keeps track of a single string that gets added to by incoming requests:
