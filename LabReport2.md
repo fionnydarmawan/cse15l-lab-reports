@@ -2,9 +2,11 @@
 
 ## Part 1 
 
-Here is the implementation/code for the webserver that keeps track of a single string that gets added to by incoming requests:
+**Implementation/code of the webserver that keeps track of a single string, and gets added to by incoming requests:**
 
 <img src="URL Code.png" width="600" height="500">
+
+
 
 **Screenshot #1:**
 
