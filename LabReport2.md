@@ -8,9 +8,20 @@ Here is the implementation/code for the webserver that keeps track of a single s
 
 <img src="Hello.png" width="500" height="300">
 
+* Above the HandleRequest method is called, using the url parameter. 
+* The request matches the condition of the method in which the url contains the string "/add-message". 
+* To read the string content of the request, I used the getQuery method and take the string reqeusted by creating a String array. To get the actual String requested I also split it by the "=" so that only the String would be read and stored in the array. 
+* After satisfying the conditions that the String requested is followed by "s" and split by "=", the String is then updated to the "runningString" String field. This is a field of an empty String that I declared outside the method as a placeholder for the String requests. The update also concatenates to the next line for the next String to be listed. 
+
 **Screenshot #2**
 
 <img src="HowAreYou.png" width="500" height="300">
+
+* In this 2nd screenshot, the same method is called, using the same url parameter 
+* Here we see the previous String listed on the page because we have saved the first request in the runningString that concatenates to the next line. 
+* So when the second request is called, instead overriding/replacing the first String, the method updates the page with a list of the previous String and the current running String. 
+
+**The values of the requests will only be read as String values and will be listed as is in the web page**
 
 
 ## Part 2
