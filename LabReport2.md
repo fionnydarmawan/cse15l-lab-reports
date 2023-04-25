@@ -13,6 +13,7 @@ Here is the implementation/code for the webserver that keeps track of a single s
 * To read the string content of the request, I used the getQuery method and take the string reqeusted by creating a String array. To get the actual String requested I also split it by the "=" so that only the String would be read and stored in the array. 
 * After satisfying the conditions that the String requested is followed by "s" and split by "=", the String is then updated to the "runningString" String field. This is a field of an empty String that I declared outside the method as a placeholder for the String requests. The update also concatenates to the next line for the next String to be listed. 
 
+
 **Screenshot #2**
 
 <img src="HowAreYou.png" width="500" height="300">
@@ -22,6 +23,7 @@ Here is the implementation/code for the webserver that keeps track of a single s
 * So when the second request is called, instead overriding/replacing the first String, the method updates the page with a list of the previous String and the current running String. 
 
 **The values of the requests will only be read as String values and will be listed as is in the web page**
+
 
 
 ## Part 2
