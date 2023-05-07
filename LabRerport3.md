@@ -1,8 +1,8 @@
-## Lab Report 3 - Researching Commands 
+# Lab Report 3 - Researching Commands 
 
-## 4 interesting command-line options or alternate ways to use the `grep` command:
+# 4 interesting command-line options or alternate ways to use the `grep` command:
 
-# `grep -i` option:
+## `grep -i` option:
 
 Ex.1)
 
@@ -30,9 +30,9 @@ grep -i "pReSiDeNt" technical/911report/preface.txt
 
 Output:
 ```
-the President of the United States, the United States Congress, and the American
+ the President of the United States, the United States Congress, and the American
             To answer these questions, the Congress and the President created the National
-                have been superb. We thank the Congress and the President. Executive branch agencies.
+                have been superb. We thank the Congress and the President. Executive branch agencies
 ```
 
 
