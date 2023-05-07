@@ -2,7 +2,7 @@
 
 # 4 interesting command-line options or alternate ways to use the `grep` command:
 
-## `grep -i` option:
+## 1) `grep -i` option:
 
 Ex.1)
 
@@ -31,8 +31,8 @@ grep -i "pReSiDeNt" technical/911report/preface.txt
 Output:
 ```
  the President of the United States, the United States Congress, and the American
-            To answer these questions, the Congress and the President created the National
-                have been superb. We thank the Congress and the President. Executive branch agencies
+    To answer these questions, the Congress and the President created the National
+    have been superb. We thank the Congress and the President. Executive branch agencies
 ```
 
 
