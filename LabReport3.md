@@ -40,7 +40,7 @@ grep -i "pReSiDeNt" technical/911report/preface.txt
 The `grep -i` command functions for insensitive commands, ignoreing cases like uppercase or lowercase letters. In example 1 and 2, this command will search for the string "peoPLE" in chapter-1.txt and "pReSiDeNt" in preface.txt regardless of the last 3 letters being all capitalizedm or that eveery other letter is capitlized. This command can be useful if we're not sure what is the exact pattern of of our cases, as the `grep` command is a case-sensitive and `grep -i` allows us to performm case-insensitive searches.
 
 Source: 
-I found this command from chatGPT
+I found this command and its functionality from chatGPT. The prompts I gave were 
 
 ## 2) `ls | grep` command:
 
@@ -87,7 +87,7 @@ government
 
 **Function**
 
-The `ls | grep` command is used with the `|` pipe to search for a pattern in the output of another command. In example 1, the `ls` command searches for the 911report folder, while the `grep` (followed by the pipe `|`) searches for all the file names that contain ".txt", printing all the files in the output. In example 2, the `ls` command goes in the technical directory, while the `grep` command searches for the folders in that direftory that contains the string "me", and then lists those folders in the output. This command can be useful to perform multiple commands and filter the output desired. the `|` serves as a pipe that allows for multiple commands and `grep` to filter out the command give the desired output. 
+The `ls | grep` command is used with the `|` pipe to search for a pattern in the output of another command. In example 1, the `ls` command searches for the 911report folder, while the `grep` (followed by the pipe `|`) searches for all the file paths that contain ".txt", printing all the files in the output. In example 2, the `ls` command goes in the technical directory, while the `grep` command searches for the file paths in that directory that contains the string "me", and then lists those paths in the output. This command can be useful to perform multiple commands and filter the output desired. the `|` serves as a pipe that allows for multiple commands and `grep` to filter out the command give the desired output. 
 
 Source: 
 I found this command from chatGPT
@@ -189,7 +189,7 @@ grep -v "the" technical/911report/preface.txt
 ```
 **Function**
 
-`grep -v` command is used to find the inverse/opposite of the given pattern. In example 1, `grep -v` command searches for the folder names that don't contain "biomed", which then lists out all the folders except biomed. In example 2, the command searches all the lines that do not contain the string "the" in preface.txt, which prints out those lines that do not contain the string. This command can be useful 
+`grep -v` command is used to find the inverse/opposite of the given pattern. In example 1, `grep -v` command searches for the file paths that don't contain "biomed", which then lists out all the paths except biomed. In example 2, the command searches all the lines that do not contain the string "the" in preface.txt, which prints out those lines that do not contain the string. This command can be useful 
 if we want to leave out specific patterns or lines that are irrelevenat the our desired output. 
 
 Source:
