@@ -111,8 +111,8 @@ government
 
 ## 4) `grep -v` command:
 
-
 Ex.1)
+
 Command:
 ```
 ls technical/ | grep -v biomed  
@@ -126,6 +126,7 @@ plos
 ```
 
 Ex.2) 
+
 Command:
 ```
 grep -v "the" technical/911report/preface.txt
