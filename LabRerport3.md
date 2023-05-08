@@ -4,14 +4,14 @@
 
 ## 1) `grep -i` option:
 
-Ex.1)
+**Ex.1)**
 
-Command: 
+**Command:** 
 ```
 grep -i "peoPLE" technical/911report/chapter-1.txt
 ```
 
-Output: 
+**Output:** 
 ```
 Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
     Sweeney calmly reported on her line that the plane had been hijacked; a man in first class had his throat slashed; two flight attendants had been stabbed-one was seriously hurt and was on oxygen while the other's wounds seemed minor; a doctor had been requested; the flight attendants were unable to contact the cockpit; and there was a bomb in the cockpit. Sweeney told Woodward that she and Ong were trying to relay as much information as they could to people on the ground.
@@ -21,14 +21,14 @@ Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the easter
     Manager, New York Center: Okay. This is New York Center. We're watching the airplane. I also had conversation with American Airlines, and they've told us that they believe that one of their stewardesses was stabbed and that there are people in the cockpit that have control of the aircraft, and that's all the information they have right now.
 ```
 
-Ex.2)
+**Ex.2)**
 
-Command: 
+**Command:** 
 ```
 grep -i "pReSiDeNt" technical/911report/preface.txt
 ```
 
-Output:
+**Output:**
 ```
  the President of the United States, the United States Congress, and the American
     To answer these questions, the Congress and the President created the National
@@ -38,14 +38,14 @@ Output:
 
 ## 2) `ls | grep` option:
 
-Ex.1) 
+**Ex.1)** 
 
-Command: 
+**Command:** 
 ```
 ls technical/911report | grep .txt
 ```
 
-Output: 
+**Output:**
 ```
 chapter-1.txt
 chapter-10.txt
@@ -66,14 +66,14 @@ chapter-9.txt
 preface.txt
 ```
 
-Ex.2)
+**Ex.2)**
 
-Command:
+**Command:**
 ```
 ls technical/ | grep me
 ```
 
-Output: 
+**Output:**
 ```
 biomed
 government
@@ -81,14 +81,14 @@ government
 
 ## 3) `grep -e` command:
 
-Ex.1) 
+**Ex.1)**
 
-Command:
+**Command:**
 ```
 grep -e "house" -e "government" technical/911report/chapter-1.txt
 ```
 
-Output:
+**Output:**
 ```
 Shortly after the first call, Barbara Olson reached her husband again. She reported that the pilot had announced that the flight had been hijacked, and she asked her husband what she should tell the captain to do. Ted Olson asked for her location and she replied that the aircraft was then flying over houses. Another passenger told her they were traveling northeast. The Solicitor General then informed his wife of the two previous hijackings and crashes. She did not display signs of panic and did not indicate any awareness of an impending crash. At that point, the second call was cut off.
 Interagency Collaboration. The FAA and NORAD had developed protocols for working together in the event of a hijacking. As they existed on 9/11, the protocols for the FAA to obtain military assistance from NORAD required multiple levels of notification and approval at the highest levels of government.
@@ -96,14 +96,14 @@ Interagency Collaboration. The FAA and NORAD had developed protocols for working
     At 9:59, an Air Force lieutenant colonel working in the White House Military Office joined the conference and stated he had just talked to Deputy National Security Advisor Stephen Hadley. The White House requested (1) the implementation of continuity of government measures, (2) fighter escorts for Air Force One, and (3) a fighter combat air patrol over Washington, 
 ```
 
-Ex.2) 
+**Ex.2)** 
 
-Command: 
+**Command:** 
 ```
 ls technical/ | grep -e bio -e gov          
 ```
 
-Output: 
+**Output:** 
 ```
 biomed
 government
@@ -111,28 +111,28 @@ government
 
 ## 4) `grep -v` command:
 
-Ex.1)
+**Ex.1)**
 
-Command:
+**Command:**
 ```
 ls technical/ | grep -v biomed  
 ```
 
-Output: 
+**Output:** 
 ```
 911report
 government
 plos
 ```
 
-Ex.2) 
+**Ex.2)** 
 
-Command:
+**Command:**
 ```
 grep -v "the" technical/911report/preface.txt
 ```
 
-Output: 
+**Output:** 
 ```
  PREFACE
                 Democrats chosen by elected leaders from our nation's capital at a time of great
