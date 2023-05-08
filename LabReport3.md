@@ -2,7 +2,7 @@
 
 # 4 interesting command-line options or alternate ways to use the `grep` command:
 
-## 1) `grep -i` option:
+## 1) `grep -i` command:
 
 **Ex.1)**
 
@@ -35,8 +35,13 @@ grep -i "pReSiDeNt" technical/911report/preface.txt
     have been superb. We thank the Congress and the President. Executive branch agencies
 ```
 
+**Function**
+The `grep -i` command functions for insensitive commands, ignoreing cases like uppercase or lowercase letters. In example 1 and 2, this command will search for the string "peoPLE" in chapter-1.txt and "pReSiDeNt" in preface.txt regardless of the last 3 letters being all capitalizedm or that eveery other letter is capitlized. This command can be useful if we're not sure what is the exact pattern of of our cases, as the `grep` command is a case-sensitive and `grep -i` allows us to performm case-insensitive searches.
 
-## 2) `ls | grep` option:
+Source: 
+I found this command from chatGPT
+
+## 2) `ls | grep` command:
 
 **Ex.1)** 
 
@@ -79,21 +84,24 @@ biomed
 government
 ```
 
+**Function**
+The `ls | grep` command is used with the `|` pipe to search for a pattern in the output of another command. In example 1, the `ls` command searches for the 911report folder, while the `grep` (followed by the pipe `|`) searches for all the file names that contain ".txt", printing all the files in the output. In example 2, the `ls` command goes in the technical directory, while the `grep` command searches for the folders in that direftory that contains the string "me", and then lists those folders in the output. This command can be useful to perform multiple commands and filter the output desired. the `|` serves as a pipe that allows for multiple commands and `grep` to filter out the command give the desired output. 
+
+Source: 
+I found this command from chatGPT
+
 ## 3) `grep -e` command:
 
 **Ex.1)**
 
 **Command:**
 ```
-grep -e "house" -e "government" technical/911report/chapter-1.txt
+grep -e "107-306" technical/911report/preface.txt  
 ```
 
 **Output:**
 ```
-Shortly after the first call, Barbara Olson reached her husband again. She reported that the pilot had announced that the flight had been hijacked, and she asked her husband what she should tell the captain to do. Ted Olson asked for her location and she replied that the aircraft was then flying over houses. Another passenger told her they were traveling northeast. The Solicitor General then informed his wife of the two previous hijackings and crashes. She did not display signs of panic and did not indicate any awareness of an impending crash. At that point, the second call was cut off.
-Interagency Collaboration. The FAA and NORAD had developed protocols for working together in the event of a hijacking. As they existed on 9/11, the protocols for the FAA to obtain military assistance from NORAD required multiple levels of notification and approval at the highest levels of government.
-    More than the actual events, inaccurate government accounts of those events made it appear that the military was notified in time to respond to two of the hijackings, raising questions about the adequacy of the response. Those accounts had the effect of deflecting questions about the military's capacity to obtain timely and accurate information from its own sources. In addition, they overstated the FAA's ability to provide the military with timely and useful information that morning.
-    At 9:59, an Air Force lieutenant colonel working in the White House Military Office joined the conference and stated he had just talked to Deputy National Security Advisor Stephen Hadley. The White House requested (1) the implementation of continuity of government measures, (2) fighter escorts for Air Force One, and (3) a fighter combat air patrol over Washington, 
+Commission on Terrorist Attacks Upon the United States (Public Law 107-306, November
 ```
 
 **Ex.2)** 
@@ -108,6 +116,12 @@ ls technical/ | grep -e bio -e gov
 biomed
 government
 ```
+
+**Function**
+The `grep -e` command is used to search for multiple patterns. In example 1, `grep -e` serches for the strings "house" and "government" in chapter-1.txt, which then gives all the lines containing either or both those strings in the output. In example 2, for the code "107-306" as literal characters despite there being the special character "-". This command can be useful if we want to have multiple patterns or if the pattern contains special charcaters. Special characters like "-", "+", or "|" will be read as literal charcaters and will print out the charcaters as is in the output. 
+
+Source: 
+I found this command from chatGPT
 
 ## 4) `grep -v` command:
 
@@ -170,4 +184,9 @@ grep -v "the" technical/911report/preface.txt
             Thomas H. Kean, chair
             Lee H. Hamilton, vice chair
 ```
+**Function**
+`grep -v` command is used to find the inverse/opposite of the given pattern. In example 1, `grep -v` command searches for the folder names that don't contain "biomed", which then lists out all the folders except biomed. In example 2, the command searches all the lines that do not contain the string "the" in preface.txt, which prints out those lines that do not contain the string. This command can be useful 
+if we want to leave out specific patterns or lines that are irrelevenat the our desired output. 
 
+Source:
+I found this command from chatGPT
