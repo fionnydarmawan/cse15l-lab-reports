@@ -3,5 +3,5 @@
 
 ## 1) Log into ieng6:
 
-<img src="Step4:ieng6" width="500" height="300">
-<img src="Step5/clonefork.png" width="500" height="300">
+<img src="ieng6.png" width="500" height="300">
+
