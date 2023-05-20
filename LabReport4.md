@@ -19,7 +19,7 @@
 
 ## 5) Running the test file (test succeeds):
 
-<img src="runTestSuccess.png" width="400" height="100">
+<img src="runTestSuccess.png" width="400" height="200">
 
 ## 6) Commit and Push change to Github:
 
