@@ -6,15 +6,16 @@
 <img src="ieng6.png" width="400" height="200">
 
 What I did to do this operation:
-* copied `ssh cs15lsp23cb@ieng6.ucsd.edu` into the command line
-* Press <Enter>
+* Copied `ssh cs15lsp23cb@ieng6.ucsd.edu` into the command line
+* Press <return>
 
 ## 2) Cloning fork into repository:
 
 <img src="clonefork.png" width="400" height="100">
-  
+
 What I did to do this operation:
-* Type ``
+* Type `git clone` and copied the URL `https://github.com/ucsd-cse15l-s23/lab7` into the command line
+* Press <return>
 
 ## 3) Running the test file (test fails):
 
