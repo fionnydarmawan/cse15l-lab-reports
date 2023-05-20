@@ -12,3 +12,7 @@
 ## 3) Running a test file (test fails):
 
 <img src="runTestFail.png" width="400" height="200">
+
+## 4) Edit code in Vim:
+
+<img src="fixedCode.png" width="400" height="200">
