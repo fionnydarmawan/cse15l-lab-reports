@@ -5,3 +5,7 @@
 
 <img src="ieng6.png" width="500" height="300">
 
+## 2) Cloning fork into repository:
+
+<img src="clonefork.png" width="500" height="300">
+
