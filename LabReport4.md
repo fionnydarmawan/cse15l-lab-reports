@@ -5,9 +5,16 @@
 
 <img src="ieng6.png" width="400" height="200">
 
+What I did to do this operation:
+* copied `ssh cs15lsp23cb@ieng6.ucsd.edu` into the command line
+* Press <Enter>
+
 ## 2) Cloning fork into repository:
 
 <img src="clonefork.png" width="400" height="100">
+  
+What I did to do this operation:
+* Type ``
 
 ## 3) Running the test file (test fails):
 
