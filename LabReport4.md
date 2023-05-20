@@ -11,4 +11,4 @@
 
 ## 3) Running a test file (test fails):
 
-<img src="runTestFail.png" width="400" height="100">
+<img src="runTestFail.png" width="400" height="200">
