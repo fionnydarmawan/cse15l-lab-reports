@@ -9,3 +9,6 @@
 
 <img src="clonefork.png" width="400" height="100">
 
+## 3) Running a test file (test fails):
+
+<img src="runTestFail.png" width="400" height="100">
