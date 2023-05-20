@@ -9,10 +9,18 @@
 
 <img src="clonefork.png" width="400" height="100">
 
-## 3) Running a test file (test fails):
+## 3) Running the test file (test fails):
 
 <img src="runTestFail.png" width="400" height="200">
 
 ## 4) Edit code in Vim:
 
 <img src="fixedCode.png" width="400" height="300">
+
+## 5) Running the test file (test succeeds):
+
+<img src="runTestSuccess.png" width="400" height="300">
+
+## 6) Commit and Push change to Github:
+
+<img src="gitCommitPush.png" width="400" height="300">
