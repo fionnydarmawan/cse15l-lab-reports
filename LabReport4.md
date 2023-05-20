@@ -7,5 +7,5 @@
 
 ## 2) Cloning fork into repository:
 
-<img src="clonefork.png" width="500" height="300">
+<img src="clonefork.png" width="300" height="100">
 
