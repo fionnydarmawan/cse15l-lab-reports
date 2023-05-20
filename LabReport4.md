@@ -3,15 +3,15 @@
 
 ## 1) Log into ieng6:
 
-<img src="ieng6.png" width="400" height="200">
+<img src="ieng6.png" width="400" height="300">
 
 ## 2) Cloning fork into repository:
 
-<img src="clonefork.png" width="400" height="100">
+<img src="clonefork.png" width="400" height="200">
 
 ## 3) Running a test file (test fails):
 
-<img src="runTestFail.png" width="400" height="200">
+<img src="runTestFail.png" width="400" height="300">
 
 ## 4) Edit code in Vim:
 
