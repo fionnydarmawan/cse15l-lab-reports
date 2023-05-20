@@ -3,7 +3,7 @@
 
 ## 1) Log into ieng6:
 
-<img src="ieng6.png" width="400" height="100">
+<img src="ieng6.png" width="400" height="200">
 
 ## 2) Cloning fork into repository:
 
