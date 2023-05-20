@@ -3,4 +3,4 @@
 
 ## 1) Log into ieng6:
 
-<img src="Step4:ieng6.png" width="600" height="500">
+<img src="Step4:ieng6" width="500" height="300">
