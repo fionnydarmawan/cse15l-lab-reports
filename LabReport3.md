@@ -93,7 +93,10 @@ government
 The `ls | grep` command is used with the `|` pipe to search for a pattern in the output of another command. In example 1, the `ls` command searches for the 911report folder, while the `grep` (followed by the pipe `|`) searches for all the file paths that contain ".txt", printing all the files in the output. In example 2, the `ls` command goes in the technical directory, while the `grep` command searches for the file paths in that directory that contains the string "me", and then lists those paths in the output. This command can be useful to perform multiple commands and filter the output desired. the `|` serves as a pipe that allows for multiple commands and `grep` to filter out the command give the desired output. 
 
 Source: 
-I found this command from chatGPT
+I found this command from chatGPT. I wanted to see other possible grep commands so I asked chatGPT "can you give me more alternative
+grep commands". Then it lists the `ls|grep` command to which I decided to use as part of my examples. Then I also asked if it can tell me more about the `ls|grep` command. 
+
+<img src="lsgrep.png" width="400" height="200">
 
 ## 3) `grep -e` command:
 
@@ -127,7 +130,9 @@ government
 The `grep -e` command is used to search for multiple patterns. In example 1, `grep -e` serches for the strings "house" and "government" in chapter-1.txt, which then gives all the lines containing either or both those strings in the output. In example 2, for the code "107-306" as literal characters despite there being the special character "-". This command can be useful if we want to have multiple patterns or if the pattern contains special charcaters. Special characters like "-", "+", or "|" will be read as literal charcaters and will print out the charcaters as is in the output. 
 
 Source: 
-I found this command from chatGPT
+I found this command from chatGPT. This command was one of the examples that chatGPT gave from my original prompt. 
+
+<img src="grepe.png" width="400" height="200">
 
 ## 4) `grep -v` command:
 
@@ -196,4 +201,6 @@ grep -v "the" technical/911report/preface.txt
 if we want to leave out specific patterns or lines that are irrelevenat the our desired output. 
 
 Source:
-I found this command from chatGPT
+I found this command from chatGPT. This command was one of the examples that chatGPT gave from my original prompt.
+
+<img src="grepv.png" width="400" height="200">
