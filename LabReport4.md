@@ -15,7 +15,7 @@ What I did to do this operation:
 
 What I did to do this operation:
 * Copied the URL `https://github.com/ucsd-cse15l-s23/lab7` on the web browser by pressing `command` then `c`
-* Typed `git clone` and copied the URL by pressing `<command><V><return>`, into the command line on the terminal.
+* Typed `git clone` and copied the URL by pressing `<command><V>`, into the command line on the terminal.
 * Pressed `<return>`
 
 ## 3) Running the test file (test fails):
