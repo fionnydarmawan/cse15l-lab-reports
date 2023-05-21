@@ -40,7 +40,10 @@ grep -i "pReSiDeNt" technical/911report/preface.txt
 The `grep -i` command functions for insensitive commands, ignoreing cases like uppercase or lowercase letters. In example 1 and 2, this command will search for the string "peoPLE" in chapter-1.txt and "pReSiDeNt" in preface.txt regardless of the last 3 letters being all capitalizedm or that eveery other letter is capitlized. This command can be useful if we're not sure what is the exact pattern of of our cases, as the `grep` command is a case-sensitive and `grep -i` allows us to performm case-insensitive searches.
 
 Source: 
-I found this command and its functionality from chatGPT. The prompts I gave were 
+I found this command and its functionality from chatGPT. The prompt I gave was "can you give find 4 
+interesting command-line options or alternate ways to use the grep command". Then `grep -i` shows as part of the 4 that chatGPT gave. 
+
+<img src="grepi.png" width="400" height="200">
 
 ## 2) `ls | grep` command:
 
