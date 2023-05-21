@@ -43,7 +43,7 @@ Source:
 I found this command and its functionality from chatGPT. The prompt I gave was "can you give find 4 
 interesting command-line options or alternate ways to use the grep command". Then `grep -i` shows as part of the 4 that chatGPT gave. 
 
-<img src="grepi.png" width="400" height="200">
+<img src="grepi.png" width="300" height="200">
 
 ## 2) `ls | grep` command:
 
@@ -96,7 +96,7 @@ Source:
 I found this command from chatGPT. I wanted to see other possible grep commands so I asked chatGPT "can you give me more alternative
 grep commands". Then it lists the `ls|grep` command to which I decided to use as part of my examples. Then I also asked if it can tell me more about the `ls|grep` command. 
 
-<img src="lsgrep.png" width="400" height="200">
+<img src="lsgrep.png" width="300" height="300">
 
 ## 3) `grep -e` command:
 
@@ -132,7 +132,7 @@ The `grep -e` command is used to search for multiple patterns. In example 1, `gr
 Source: 
 I found this command from chatGPT. This command was one of the examples that chatGPT gave from my original prompt. 
 
-<img src="grepe.png" width="400" height="200">
+<img src="grepe.png" width="300" height="200">
 
 ## 4) `grep -v` command:
 
@@ -203,4 +203,4 @@ if we want to leave out specific patterns or lines that are irrelevenat the our 
 Source:
 I found this command from chatGPT. This command was one of the examples that chatGPT gave from my original prompt.
 
-<img src="grepv.png" width="400" height="200">
+<img src="grepv.png" width="300" height="200">
