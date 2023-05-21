@@ -43,7 +43,7 @@ Source:
 I found this command and its functionality from chatGPT. The prompt I gave was "can you give find 4 
 interesting command-line options or alternate ways to use the grep command". Then `grep -i` shows as part of the 4 that chatGPT gave. 
 
-<img src="grepi.png" width="300" height="100">
+<img src="grepi.png" width="300" height="200">
 
 ## 2) `ls | grep` command:
 
