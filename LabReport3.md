@@ -132,7 +132,7 @@ The `grep -e` command is used to search for multiple patterns. In example 1, `gr
 Source: 
 I found this command from chatGPT. This command was one of the examples that chatGPT gave from my original prompt. 
 
-<img src="grepe.png" width="300" height="80">
+<img src="grepe.png" width="300" height="100">
 
 ## 4) `grep -v` command:
 
@@ -203,4 +203,4 @@ if we want to leave out specific patterns or lines that are irrelevenat the our 
 Source:
 I found this command from chatGPT. This command was one of the examples that chatGPT gave from my original prompt.
 
-<img src="grepv.png" width="300" height="200">
+<img src="grepv.png" width="300" height="100">
