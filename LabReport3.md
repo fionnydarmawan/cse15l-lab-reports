@@ -41,9 +41,11 @@ The `grep -i` command functions for insensitive commands, ignoreing cases like u
 
 Source: 
 I found this command and its functionality from chatGPT. The prompt I gave was "can you give find 4 
-interesting command-line options or alternate ways to use the grep command". Then `grep -i` shows as part of the 4 that chatGPT gave. 
+interesting command-line options or alternate ways to use the grep command". Then `grep -i` shows as part of the 4 that chatGPT gave.
 
 <img src="grepi.png" width="300" height="200">
+
+Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use. 
 
 ## 2) `ls | grep` command:
 
@@ -98,6 +100,8 @@ grep commands". Then it lists the `ls|grep` command to which I decided to use as
 
 <img src="lsgrep.png" width="300" height="200">
 
+Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use.
+
 ## 3) `grep -e` command:
 
 **Ex.1)**
@@ -133,6 +137,8 @@ Source:
 I found this command from chatGPT. This command was one of the examples that chatGPT gave from my original prompt. 
 
 <img src="grepe.png" width="300" height="100">
+
+Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use.
 
 ## 4) `grep -v` command:
 
@@ -204,3 +210,5 @@ Source:
 I found this command from chatGPT. This command was one of the examples that chatGPT gave from my original prompt.
 
 <img src="grepv.png" width="300" height="100">
+
+Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use.
