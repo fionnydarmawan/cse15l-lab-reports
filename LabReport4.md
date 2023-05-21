@@ -64,9 +64,9 @@ What I did to do this operation:
 <img src="gitCommitPush.png" width="400" height="300">
   
 What I did to do this operation:
-* Pressed `<up>(9x)<return>`, the `git add ListExamples.java` command was up 9 times in the search history
+* Pressed `<up>(7x)<return>`, the `git add ListExamples.java` command was up 9 times in the search history
   - this command added changes I made into the gitHub repository. 
-* Pressed `<up>(9x)<return>`, the `git commit -m "fixed code"` command was up 9 times in the search history
+* Pressed `<up>(7x)<return>`, the `git commit -m "fixed code"` command was up 9 times in the search history
   - this command crated a new commit with the command "fixed code" to the changes I made into the gitHub repository. 
-* Pressed `<up>(9x)<return>`, the `git push https://github.com/fionnydarmawan/lab7` command was up 9 times in the search history 
+* Pressed `<up>(7x)<return>`, the `git push https://github.com/fionnydarmawan/lab7` command was up 9 times in the search history 
   - this command uploaded the commit into the gitHub repository. 
