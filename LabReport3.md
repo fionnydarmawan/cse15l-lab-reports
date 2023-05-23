@@ -45,7 +45,7 @@ interesting command-line options or alternate ways to use the grep command". The
 
 <img src="grepi.png" width="300" height="200">
 
-Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use. 
+Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use. I also summarized the function description of the command that chatGPT gave as part of my lab report. 
 
 ## 2) `ls | grep` command:
 
@@ -100,7 +100,7 @@ grep commands". Then it lists the `ls|grep` command to which I decided to use as
 
 <img src="lsgrep.png" width="300" height="200">
 
-Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use.
+Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use.I also summarized the function description of the command that chatGPT gave as part of my lab report. 
 
 ## 3) `grep -e` command:
 
@@ -138,7 +138,7 @@ I found this command from chatGPT. This command was one of the examples that cha
 
 <img src="grepe.png" width="300" height="100">
 
-Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use.
+Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use. I also summarized the function description of the command that chatGPT gave as part of my lab report. 
 
 ## 4) `grep -v` command:
 
@@ -211,4 +211,4 @@ I found this command from chatGPT. This command was one of the examples that cha
 
 <img src="grepv.png" width="300" height="100">
 
-Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use.
+Based on this output, I used the command on my terminal and changed the pattern and the directory the one that I intended to use. I also summarized the function description of the command that chatGPT gave as part of my lab report. 
