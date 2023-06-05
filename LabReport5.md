@@ -13,7 +13,7 @@ I am receiving a "TestTimedOutException" when I run my code. It seems like there
 
 <img src="merge.png" width="400" height="400">
 
-<img src="mergeOutput.png" width="400" height="400">
+<img src="mergeOutput.png" width="400" height="100">
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can**
 
