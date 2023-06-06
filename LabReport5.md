@@ -31,7 +31,7 @@ Hello! Thanks for the input, I printed out some strings in the while loops and y
 
 <img src="mergeBug.png" width="400" height="400">
 
-<img src="mergeBugOutput.png" width="400" height="400">
+<img src="mergeBugOutpur.png" width="400" height="400">
 
 Here we can see that my test is going in the first while loop and is just adding the same element infinitely.
 
@@ -39,7 +39,7 @@ So to fix this I wrote a line in each while loop to increment each index by 1 so
 
 <img src="mergeFixed.png" width="400" height="400">
 
-<img src="mergeFixedOutput.png" width="400" height="400">
+<img src="mergeFixedOutput.png" width="400" height="200">
 
 ## Part 2: Reflection 
 
