@@ -39,7 +39,7 @@ So to fix this I wrote a line in each while loop to increment each index by 1 so
 
 <img src="mergeFixed.png" width="400" height="400">
 
-<img src="mergeFixedOutput.png" width="400" height="200">
+<img src="mergeFixedOutput.png" width="400" height="100">
 
 ## Part 2: Reflection 
 
