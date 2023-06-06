@@ -43,7 +43,10 @@ So to fix this I wrote a line in each while loop to increment each index by 1 so
 
 ## Part 2: Reflection 
 
+In the second hald of this quarter, one thing I learned that I found interesting was being able basically do computing/coding tasks all from the command line. I learned about editing files on vim and running test files on the terminal. I Learned that you basically can do all these tasks on the keyboard without ever touching the mouse or track pad! 
 
+
+Thank you for a great quarter and reading my lab reports! :) 
 
 
 
